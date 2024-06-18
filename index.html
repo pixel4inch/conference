@@ -47,7 +47,7 @@
 		<header-component></header-component>
 	</header>
 	<main class="mainContent">
-		<div class="w-100">
+		<div class="container-fluid">
 		<div class="row mx-0">
 		  <!---HERO SECTION--->
 		  <section class="section pt-0" id="hero">
@@ -98,7 +98,7 @@
                                             $.each(data, function (key, value) {
                                                            ticketblock += `
 
-                                                           <div class="ticket mb-5 wow slideInDown" data-wow-delay="` + value.delay +`">
+                                                           <div class="ticket mb-5 wow fadeInUp" data-wow-delay="` + value.delay +`">
 															<div class="ticketTitle text-center">` + value.type + `</div>
 															<hr>
 															<div class="ticketDetail">
@@ -140,6 +140,137 @@
 		  
 		  
 		  </section>
+
+
+		  
+  <!---DYNAMIC TEXT--->
+  <section class="section">
+    <div class="container">
+      <div id="dynamictextscroll-block" class="py-10">
+        <!---TEXT DISPLAY FROM WEBCOMPONETS/ANIMATEDTEXT.JS FILE--->
+      </div>
+    </div>
+  </section>
+
+  <!---SPEAKERS--->
+  <section class="section">
+    <div class="container">
+      <div id="Speakers" class="pt-10">
+        <page-title title="SPEAKERS" subtitle="AT EVOLVE™ 2023" class="mb-10"></page-title>
+      </div>
+      <div class="w-100 d-flex justify-content-center align-items-center">
+        <a href="javasscript:valid(0)" class="brand-btn mt-4 mx-2"> BROWSE ALL SPEAKERS </a>
+        <a href="javasscript:valid(0)" class="brand-btn mt-4 mx-2"> SEE AGENDA </a>
+      </div>
+    </div>
+
+    <div class="row mx-0" id="speakers-block">
+      <!---SPEAKERS DISPLAY FROM WEBCOMPONETS/SPEAKERCARD.JS FILE--->
+    </div>
+  </section>
+
+
+  <!---CURIOUS MINDS--->
+  <section class="section">
+    <div class="container">
+      <div id="curious">
+        <page-title title="13,000" subtitle="CURIOUS MINDS COMING TO SLUSH, INCLUDING:" class="mb-10"></page-title>
+      </div>
+    </div>
+    <div id="curiousblock" class="mt-5">
+
+    </div>
+  </section>
+
+  <!---Accordion BLOCK--->
+  <section class="section">
+    <div class="container">
+      <div id="accrodion-block">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+       
+       <script>
+          $.getJSON("./data/home-accordion.json", function (data) {
+            var accordionData = '';
+
+            // Iterate over each item in the JSON data
+            $.each(data, function (key, value) {
+              // Variable to store the accordion content
+              var accordiondata = '';
+              // Iterate over each accordion item
+              $.each(value.accordion, function (index, content) {
+                // Variable to store the accordion descriptions
+                var accpara = '';
+
+                // Iterate over each accordion description for the current accordion item
+                $.each(content.accpara, function (i, desc) {
+                  // Append the accordion description to the variable
+                  accpara += `<p class="text-white mb-2">${desc.accparalist}</p>`;
+                });
+
+                // Append the accordion item HTML to the accordiondata variable
+                accordiondata += `
+            
+                    <div class="card">
+                        <div class="card-header" id="heading${index}">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#acctab${content.id}" aria-expanded="false" aria-controls="collapse${index}">
+                                    <span>${content.accordionTitle}</span>
+                                    <div class="accordion-icon">
+                                        <span class="line-one"></span>
+                                        <span class="line-two"></span>
+                                    </div>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="acctab${content.id}" class="collapse" aria-labelledby="heading${index}" data-parent="#${value.id}">
+                            <div class="card-body">
+                                ${accpara}
+                            </div>
+                        </div>
+                   
+            </div>`;
+              });
+
+
+
+              // Append the accordion data for the current section to the accordionData variable
+              accordionData += `
+                <div class="row my-24">
+                    <div class="col-md-6 col-12 p-2">
+                        <div class="h-100 w-100 accordion-image-block">
+                            <div class="accordin-img-content">
+                                <h3>EVOLVE FOR </h3> 
+                                <h2 class="text-white">${value.title}</h2>
+                                <p>${value.description}</p>
+                                <a href="javascript:void(0)" class="brand-btn mt-4 mx-2"> Read More </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12 p-2">
+                      <div class="customAccordion" id="${value.id}">
+                        <div class="accordion" id="accordionExample">
+                        ${accordiondata}
+                        </div>
+                        </div>
+                    </div>
+                </div>`;
+
+            });
+
+            // Insert the generated accordion HTML into the specified container
+            $('#accrodion-block').html(accordionData);
+          }).fail(function () {
+            document.write("An error has occurred.");
+          });
+        </script>
+
+      </div>
+
+
+    </div>
+  </section>
 
 
   
