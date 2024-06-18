@@ -18,10 +18,11 @@
 
 .navbar-brand h1.brandName {
     color: var(--white);
-    font-size: 31px;
+    font-size: 28px;
     font-weight: bold;
     line-height: normal;
     letter-spacing: 0.5px;
+    margin-bottom: 0;
 }
 
 .navbar-brand h1.brandName sup{
