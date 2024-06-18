@@ -14,20 +14,74 @@ class HeaderComponent extends HTMLElement {
       this.innerHTML = `
      
    <!---NAVGATION START--->
-    <nav class="navbar main-nav navbar-expand-lg customeNavBar fixed-top">
+    <nav class="navbar main-nav navbar-expand-xl customeNavBar fixed-top">
     <div class="container-fluid">
 
-       <a class="navbar-brand" href="home.htm">
-         <h1 class="brandName">EVOLVE<sup>TM</sup><span> 2024 </h1>
+       <a class="navbar-brand" href="index.html">
+         <h1 class="brandName">EVOLVE SV 2024 </h1>
       </a>
       
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="ti-menu"></span>
        </button>
 
        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-             <li class="nav-item dropdown @@forvisitor ">
+		  
+		  
+		  
+			<li class="nav-item ">		
+               <a class="nav-link" href="./tabspage.html?tabName=agenda">AGENDA</a>
+            </li>
+			
+            <li class="nav-item ">			
+               <a class="nav-link " href="./tabspage.html?tabName=innovator">INNOVATOR EXPO</a>
+            </li>
+			
+           <li class="nav-item ">		
+               <a class="nav-link " href="./tabspage.html?tabName=startup">STARTUPS</a>
+            </li>
+                   <li class="nav-item ">		
+                     <a class="nav-link" href="./tabspage.html?tabName=investors">INVESTORS</a>
+                  </li>
+                  <li class="nav-item ">		
+                        <a class="nav-link" href="./tabspage.html?tabName=enterprises">ENTERPRISES</a>
+                     </li>
+					 
+					 <li class="nav-item">		
+                     <a class="nav-link" href="./tabspage.html?tabName=domainexperts">DOMAIN EXPERTS</a>
+                     </li>
+					 
+					 <li class="nav-item ">		
+                     <a class="nav-link" href="./tabspage.html?tabName=ecoconnect">ECO-CONNECT</a>
+                     </li>
+                  <li class="nav-item ">		
+                     <a class="nav-link" href="./tabspage.html?tabName=presskit">PRESS KIT</a>
+                     </li>
+					 
+					 
+					  <li class="nav-item ">	
+                     <a class="nav-link" href="Javascript:valid(0)">CODE</a>
+                     </li>
+					 
+					 <li class="nav-item ">	
+                     <a class="nav-link" href="Javascript:valid(0)">FAQS</a>
+                     </li>
+		  
+		  
+	
+        
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+             <!---li class="nav-item dropdown @@forvisitor ">
                      <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown">FOR VISITORS
                      <span><i class="ti-angle-down"></i></span>
                      </a>
@@ -86,6 +140,15 @@ class HeaderComponent extends HTMLElement {
                 <li>			
                 <a class="dropdown-item @ASPEAKERS" href="Javascript:valid(0)">SPEAKERS</a>
                 </li>
+				
+				
+				 <li class="nav-item @@LOGIN">
+            <a class="nav-link" href="Javascript:valid(0)">LOGIN</a>
+         </li>
+
+         <li class="nav-item search">
+         <a class="nav-link" href="Javascript:valid(0)"> <span><i class="ti-search"></i></span></a>
+      </li>
              </ul>
      </li>
 
@@ -96,46 +159,38 @@ class HeaderComponent extends HTMLElement {
          </a>
          <ul class="dropdown-menu">
             <li>			
-               <a class="dropdown-item @EVENTINFO" href="Javascript:valid(0)">EVENT INFO</a>
+               <a class="dropdown-item @EVENTINFO" href="Javascript:valid(0)">AGENDA</a>
             </li>
             <li>			
-               <a class="dropdown-item @BOOKINGMEETINGS " href="Javascript:valid(0)">BOOKING MEETINGS</a>
+               <a class="dropdown-item @BOOKINGMEETINGS " href="Javascript:valid(0)">INNOVATOR EXPO</a>
             </li>
             <li>			
-               <a class="dropdown-item @GUIDE TO EVOLVE " href="Javascript:valid(0)">GUIDE TO EVOLVE</a>
+               <a class="dropdown-item @GUIDE TO EVOLVE " href="Javascript:valid(0)">INNOVATOR EXPO</a>
             </li>
                   <li>			
-                     <a class="dropdown-item @MEDIADAY" href="Javascript:valid(0)">MEDIA DAY</a>
+                     <a class="dropdown-item @MEDIADAY" href="Javascript:valid(0)">INVESTORS</a>
                   </li>
                   <li>			
-                        <a class="dropdown-item @SLUSHTAINABILITY" href="Javascript:valid(0)">SLUSHTAINABILITY</a>
+                        <a class="dropdown-item @SLUSHTAINABILITY" href="Javascript:valid(0)">ENTERPRISES</a>
+                     </li>
+					 
+					  <li>			
+                     <a class="dropdown-item @FAQ" href="Javascript:valid(0)">DOMAIN EXPERTS</a>
+                     </li>
+					 
+					  <li>			
+                     <a class="dropdown-item @FAQ" href="Javascript:valid(0)">ECO-CONNECT</a>
                      </li>
                   <li>			
-                     <a class="dropdown-item @FAQ" href="Javascript:valid(0)">FAQ</a>
+                     <a class="dropdown-item @FAQ" href="Javascript:valid(0)">PRESS KIT</a>
+                     </li>
+					  <li>			
+                     <a class="dropdown-item @FAQ" href="Javascript:valid(0)">FAQS</a>
                      </li>
                </ul>
-      </li>
+      </li---->
             
-         <li class="nav-item @@EVOLV100">
-            <a class="nav-link" href="Javascript:valid(0)">EVOLVE 100</a>
-         </li>
-
-
-         <li class="nav-item @@MATCHMAKING">
-            <a class="nav-link" href="Javascript:valid(0)">MATCHMAKING</a>
-         </li>
-
-         <li class="nav-item @@LIVESTREAM">
-            <a class="nav-link" href="Javascript:valid(0)">LIVESTREAM</a>
-         </li>
-
-         <li class="nav-item @@LOGIN">
-            <a class="nav-link" href="Javascript:valid(0)">LOGIN</a>
-         </li>
-
-         <li class="nav-item search">
-         <a class="nav-link" href="Javascript:valid(0)"> <span><i class="ti-search"></i></span></a>
-      </li>
+        
 
 
         

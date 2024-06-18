@@ -23,7 +23,6 @@ html,body{
 
 .section{
   padding:54px 0px;
-  margin: 0 auto;
   width: 100%;
 }
 
@@ -184,4 +183,17 @@ html,body{
 .companyLogosBlock img{
   width: 100%;
   height: auto;;
+}
+
+
+/*=======================
+	 FOOTER SCROLL
+
+==========================*/
+
+.footerscroll{
+	
+	font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 6px;
 }
