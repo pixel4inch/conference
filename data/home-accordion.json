@@ -1,0 +1,667 @@
+[
+{
+
+    "id": "card1",
+    "img": "",
+    "title": "STARTUPS",
+    "description": "Evolve 2023 brought together 5,000 startup founders and operators, accompanied by 3,000 investors, representing $3 trillion in assets under management.",
+    "link": "",
+    "accordion": [
+            
+            {
+                "id":1,
+                "accordionTitle": "SLUSH 100",
+                "accpara": [
+                                        {
+                                            "accparalist": "Slush 100 — the most coveted startup competition in the world."
+                                        },
+                                        {
+                                            "accparalist": "World-class funds Accel, General Catalyst, Lightspeed Venture Partners, NEA, and Northzone came together to invest €1,000,000 in the best early-stage startup at Slush 2023."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for Slush 100 this year and find out more about the competition from the link below."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":2,
+                "accordionTitle": "FOUNDERS DAY (DAY 0)",
+                "accpara": [
+                                        {
+                                            "accparalist": "Founders Day is the largest founder-only gathering in the world."
+                                        },
+                                        {
+                                            "accparalist": "In 2023, we built Founders Day even bigger to include mentoring, workshops, speakers, and experiences."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for the 2024 edition of Founders Day."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":3,
+                "accordionTitle": "STARTUP STUDIO",
+                "accpara": [
+                                        {
+                                            "accparalist": "Startup Studio showcases 80 ambitious companies from deep tech, AI/ML, space tech, and other thrilling sectors. The stage also shows the world who Slush thinks deserves more visibility in the Nordics and Emerging Ecosystems."
+                                        },
+                                        {
+                                            "accparalist": "Applications for 2024 will open later in the year."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":4,
+                "accordionTitle": "STARTUP BOOTHS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":5,
+                "accordionTitle": "FOUNDER EXPERIENCE EVENTS",
+                "accpara": [
+                                        {
+                                            "accparalist": "When was the last time you dipped in the icy sea or slid through the Finnish archipelago? Maybe you’re looking for an activity to network with founder peers? We’ve got experiences for the adrenaline junkies and those that want to relax before kickstarting their time at Slush."
+                                        },
+                                        {
+                                            "accparalist": "Information on 2024 Experience Events coming later."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":6,
+                "accordionTitle": "MEDIA BANK FOR STARTUPS",
+                "accpara": [
+                                        {
+                                            "accparalist": "If you’re looking for media coverage, this is for you."
+                                        },
+                                        {
+                                            "accparalist": "Media Bank is a source bank for journalists, gathering all announcements happening during Slush week so none are lost in the Slush noise."
+                                        }
+                                        
+                                       ]
+
+            },
+            {
+                "id":7,
+                "accordionTitle": "SPEAKER Q&AS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Speaker Q&As are 45-minute Q&A sessions taking place during Slush. 30 Startup Pass holders per session get to pick the brains of expert operators and founders after a Builder Stage talk. Whether it’s Airbnb, Deel, or Doordash operators, you’ll have a chance to ask them for advice on your problems to accelerate your growth."
+                                        },
+                                        {
+                                            "accparalist": "More information on 2024 Speaker Q&As coming later."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":8,
+                "accordionTitle": "SLUSH IN NUMBERS",
+                "accpara": [
+                                        {
+                                            "accparalist": "In 2022 we had:"
+                                        },
+                                        {
+                                            "accparalist": "16,500 meetings: 37% of all meetings held between startups and investors."
+                                        },
+                                        {
+                                            "accparalist": "40% of investors invest across Europe and North America."
+                                        }
+                                       ]
+
+            }
+
+
+    ]
+},
+{
+
+    "id": "card2",
+    "img": "",
+    "title": "INVESTORS",
+    "description": "Slush 2023 gathered $3 trillion in assets under management and 5,000 startup founders and operators under one roof. At no other gathering will you find the same critical mass of people you absolutely have to meet.",
+    "link": "",
+    "accordion": [
+            
+            {   
+                "id":9,
+                "accordionTitle": "INVESTOR DAY (DAY 0)",
+                "accpara": [
+                                        {
+                                            "accparalist": "Slush 100 — the most coveted startup competition in the world."
+                                        },
+                                        {
+                                            "accparalist": "World-class funds Accel, General Catalyst, Lightspeed Venture Partners, NEA, and Northzone came together to invest €1,000,000 in the best early-stage startup at Slush 2023."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for Slush 100 this year and find out more about the competition from the link below."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":10,
+                "accordionTitle": "INVESTOR OFFICE HOURS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Founders Day is the largest founder-only gathering in the world."
+                                        },
+                                        {
+                                            "accparalist": "In 2023, we built Founders Day even bigger to include mentoring, workshops, speakers, and experiences."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for the 2024 edition of Founders Day."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":11,
+                "accordionTitle": "INVESTOR LOUNGES",
+                "accpara": [
+                                        {
+                                            "accparalist": "Startup Studio showcases 80 ambitious companies from deep tech, AI/ML, space tech, and other thrilling sectors. The stage also shows the world who Slush thinks deserves more visibility in the Nordics and Emerging Ecosystems."
+                                        },
+                                        {
+                                            "accparalist": "Applications for 2024 will open later in the year."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":12,
+                "accordionTitle": "INVESTOR EXPERIENCE EVENTS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":13,
+                "accordionTitle": "MEDIA BANK FOR INVESTORS",
+                "accpara": [
+                                        {
+                                            "accparalist": "When was the last time you dipped in the icy sea or slid through the Finnish archipelago? Maybe you’re looking for an activity to network with founder peers? We’ve got experiences for the adrenaline junkies and those that want to relax before kickstarting their time at Slush."
+                                        },
+                                        {
+                                            "accparalist": "Information on 2024 Experience Events coming later."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":14,
+                "accordionTitle": "SLUSH IN NUMBERS",
+                "accpara": [
+                                        {
+                                            "accparalist": "If you’re looking for media coverage, this is for you."
+                                        },
+                                        {
+                                            "accparalist": "Media Bank is a source bank for journalists, gathering all announcements happening during Slush week so none are lost in the Slush noise."
+                                        }
+                                        
+                                       ]
+
+            }
+            
+            
+
+
+    ]
+},
+{
+
+    "id": "card3",
+    "img": "",
+    "title": "MEDIA",
+    "description": "Hundreds of journalists are joining Slush to be where the action takes place. Meet the most interesting people in startups and tech under one roof.",
+    "link": "",
+    "accordion": [
+            
+            {   
+                "id":15,
+                "accordionTitle": "MEDIA DAY (DAY 0)",
+                "accpara": [
+                                        {
+                                            "accparalist": "Slush 100 — the most coveted startup competition in the world."
+                                        },
+                                        {
+                                            "accparalist": "World-class funds Accel, General Catalyst, Lightspeed Venture Partners, NEA, and Northzone came together to invest €1,000,000 in the best early-stage startup at Slush 2023."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for Slush 100 this year and find out more about the competition from the link below."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":16,
+                "accordionTitle": "STAGE ANNOUNCEMENTS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Founders Day is the largest founder-only gathering in the world."
+                                        },
+                                        {
+                                            "accparalist": "In 2023, we built Founders Day even bigger to include mentoring, workshops, speakers, and experiences."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for the 2024 edition of Founders Day."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":17,
+                "accordionTitle": "PRESS Q&AS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Startup Studio showcases 80 ambitious companies from deep tech, AI/ML, space tech, and other thrilling sectors. The stage also shows the world who Slush thinks deserves more visibility in the Nordics and Emerging Ecosystems."
+                                        },
+                                        {
+                                            "accparalist": "Applications for 2024 will open later in the year."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":18,
+                "accordionTitle": "MEDIA AREA",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":19,
+                "accordionTitle": "MEDIA BANK",
+                "accpara": [
+                                        {
+                                            "accparalist": "When was the last time you dipped in the icy sea or slid through the Finnish archipelago? Maybe you’re looking for an activity to network with founder peers? We’ve got experiences for the adrenaline junkies and those that want to relax before kickstarting their time at Slush."
+                                        },
+                                        {
+                                            "accparalist": "Information on 2024 Experience Events coming later."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":20,
+                "accordionTitle": "POD BOOKINGS",
+                "accpara": [
+                                        {
+                                            "accparalist": "If you’re looking for media coverage, this is for you."
+                                        },
+                                        {
+                                            "accparalist": "Media Bank is a source bank for journalists, gathering all announcements happening during Slush week so none are lost in the Slush noise."
+                                        }
+                                        
+                                       ]
+
+            }
+            
+            
+
+
+    ]
+},
+{
+
+    "id": "card4",
+    "img": "",
+    "title": "LIMITED PARTNERS",
+    "description": "Get a bird’s eye view of the VC ecosystem and the largest gathering of venture capital in the world, all in just two days.",
+    "link": "",
+    "accordion": [
+            
+            {   
+                "id":21,
+                "accordionTitle": "MEET THE BEST MANAGERS IN EUROPE",
+                "accpara": [
+                                        {
+                                            "accparalist": "Slush 100 — the most coveted startup competition in the world."
+                                        },
+                                        {
+                                            "accparalist": "World-class funds Accel, General Catalyst, Lightspeed Venture Partners, NEA, and Northzone came together to invest €1,000,000 in the best early-stage startup at Slush 2023."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for Slush 100 this year and find out more about the competition from the link below."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":22,
+                "accordionTitle": "CATCH UP WITH ALLOCATORS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Founders Day is the largest founder-only gathering in the world."
+                                        },
+                                        {
+                                            "accparalist": "In 2023, we built Founders Day even bigger to include mentoring, workshops, speakers, and experiences."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for the 2024 edition of Founders Day."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":23,
+                "accordionTitle": "REFERENCE MANAGERS WITH FOUNDERS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Startup Studio showcases 80 ambitious companies from deep tech, AI/ML, space tech, and other thrilling sectors. The stage also shows the world who Slush thinks deserves more visibility in the Nordics and Emerging Ecosystems."
+                                        },
+                                        {
+                                            "accparalist": "Applications for 2024 will open later in the year."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":24,
+                "accordionTitle": "RECEIVE CONCIERGE SERVICE",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            }
+            
+            
+            
+
+
+    ]
+},
+{
+
+    "id": "card5",
+    "img": "",
+    "title": "VOLUNTEERS",
+    "description": "Stay tuned for Slush 2024 volunteer applications through our social media @slushhq.",
+    "link": "",
+    "accordion": [
+            
+            {   
+                "id":25,
+                "accordionTitle": "PRODUCTION",
+                "accpara": [
+                                        {
+                                            "accparalist": "Slush 100 — the most coveted startup competition in the world."
+                                        },
+                                        {
+                                            "accparalist": "World-class funds Accel, General Catalyst, Lightspeed Venture Partners, NEA, and Northzone came together to invest €1,000,000 in the best early-stage startup at Slush 2023."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for Slush 100 this year and find out more about the competition from the link below."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":26,
+                "accordionTitle": "PARTNERSHIPS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Founders Day is the largest founder-only gathering in the world."
+                                        },
+                                        {
+                                            "accparalist": "In 2023, we built Founders Day even bigger to include mentoring, workshops, speakers, and experiences."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for the 2024 edition of Founders Day."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":27,
+                "accordionTitle": "FINANCE",
+                "accpara": [
+                                        {
+                                            "accparalist": "Startup Studio showcases 80 ambitious companies from deep tech, AI/ML, space tech, and other thrilling sectors. The stage also shows the world who Slush thinks deserves more visibility in the Nordics and Emerging Ecosystems."
+                                        },
+                                        {
+                                            "accparalist": "Applications for 2024 will open later in the year."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":28,
+                "accordionTitle": "PROGRAM",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":29,
+                "accordionTitle": "STUDIO",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":30,
+                "accordionTitle": "MEETING OPERATIONS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":31,
+                "accordionTitle": "MEDIA & PR",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":32,
+                "accordionTitle": "INVESTORS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":33,
+                "accordionTitle": "PEOPLE",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":34,
+                "accordionTitle": "STARTUPS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            }
+            
+            
+            
+
+
+    ]
+},
+{
+
+    "id": "card6",
+    "img": "",
+    "title": "PARTNERS",
+    "description": "We choose to build Slush with partners who not only support the startup ecosystem but share our values of entrepreneurial grit and lasting impact.",
+    "link": "",
+    "accordion": [
+            
+            {   
+                "id":35,
+                "accordionTitle": "VISIBILITY",
+                "accpara": [
+                                        {
+                                            "accparalist": "Slush 100 — the most coveted startup competition in the world."
+                                        },
+                                        {
+                                            "accparalist": "World-class funds Accel, General Catalyst, Lightspeed Venture Partners, NEA, and Northzone came together to invest €1,000,000 in the best early-stage startup at Slush 2023."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for Slush 100 this year and find out more about the competition from the link below."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":36,
+                "accordionTitle": "PARTNER SIDE EVENTS",
+                "accpara": [
+                                        {
+                                            "accparalist": "Founders Day is the largest founder-only gathering in the world."
+                                        },
+                                        {
+                                            "accparalist": "In 2023, we built Founders Day even bigger to include mentoring, workshops, speakers, and experiences."
+                                        },
+                                        {
+                                            "accparalist": "Stay tuned for the 2024 edition of Founders Day."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":37,
+                "accordionTitle": "LEAD SCANNING",
+                "accpara": [
+                                        {
+                                            "accparalist": "Startup Studio showcases 80 ambitious companies from deep tech, AI/ML, space tech, and other thrilling sectors. The stage also shows the world who Slush thinks deserves more visibility in the Nordics and Emerging Ecosystems."
+                                        },
+                                        {
+                                            "accparalist": "Applications for 2024 will open later in the year."
+                                        }
+                                       ]
+
+            },
+            {
+                "id":38,
+                "accordionTitle": "STARTUP SCREENING & MATCHING",
+                "accpara": [
+                                        {
+                                            "accparalist": "Do you want to have your own booth at the heart of the Slush venue?"
+                                        },
+                                        {
+                                            "accparalist": "It’s the most concrete way to get traction, leads, and general visibility for early-stage startups and their products."
+                                        },
+                                        {
+                                            "accparalist": "Contact startups@slush.org to find out more."
+                                        }
+                                       ]
+
+            }
+            
+            
+            
+
+
+    ]
+}
+
+
+]

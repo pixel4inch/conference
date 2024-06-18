@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Evolve SV</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Evolve SV">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Evolve SV ">
+  <meta name="generator" content="Evolve SV">
+
+  <!-- theme meta -->
+  <meta name="theme-name" content="Evolve SV" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/custome.css" rel="stylesheet" />
+  <link href="./plugins/jsvectormap-master/dist/css/jsvectormap.css" rel="stylesheet" />
+  <link href="css/jquery.readall.css" rel="stylesheet" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link href="css/eventplatform.css" rel="stylesheet" />
+  
+
+</head>
+
+ <script src="https://releases.jquery.com/git/jquery-git.js"></script>
+<script>
+					$(document).ready(function () {
+					$.getJSON("./data/tabpage.json", function (data) {
+						var selURL = window.location.pathname.substr(window.location.pathname.lastIndexOf("/") + 1).replace(".html", "");
+						//alert("URL: " + selURL);
+						var tabId = GetParameterValues("tabName");  // Ensure this function is defined somewhere in your code
+						//alert("Event: " + tabId);
+						var eventplatformherosection = '';
+						$.each(data.tablist, function (key, value) {
+							if (value.tabname === tabId) {  // Fix typo from vlaue to value
+							   eventplatformherosection  += `
+											<div class="col-md-6">
+												<div class="py-1">
+															<div class="fadeIn wow">
+															<h3  class="fadeInDown wow" data-wow-duration="4s">`+  value.subtitle + `</h3>
+															<h2   class="fadeInDown wow" data-wow-duration="4s">`+  value.maintitle + `</h2>
+															<p   class="fadeIn wow" data-wow-duration="4s">`+  value.discraption + `</p>
+																</div>
+																
+																<a class="fadeInUp wow" data-wow-duration="4s"  href=" ` + value.Registerlink +` " target="_blank">REGISTER </a>
+
+												</div>
+											</div>
+											
+											 
+											 <div class="col-md-6 innerpaddng">
+													<div class="p-1">
+															
+															<div class="heroimages-section">
+																<div class="small-image fadeInLeft wow" style="background:url(`+  value.smallImage + `)" data-wow-duration="3s" ></div>
+																<div class="large-image fadeInRight wow" style="background:url(`+  value.largeImage + `)" data-wow-duration="3s" ></div>
+															</div>
+													</div>
+											</div>
+								
+									`;  // Fix typo from vlaue to value
+							}
+						});
+						$('#eventplatform-herosection').html(eventplatformherosection);
+					}).fail(function () {
+						document.write("An error has occurred.");
+					});
+				});
+
+				// Function to get URL parameter values (example implementation)
+				function GetParameterValues(param) {
+					var urlParams = new URLSearchParams(window.location.search);
+					return urlParams.get(param);
+				}
+			</script>
+
+<body >
+
+<div class="body-wrapper">
+
+
+	<header>
+		<header-component></header-component>
+	</header>
+	
+	<main class="mainContent">
+		<section class="section" >
+			<div class="container-fluid">
+				<!----PAGE BANNER START--->
+				<div class="row mx-0">
+					<div class="eventplatform-herosection" id="eventplatform-herosection"></div>
+				</div>
+				<!--- PAGE BANNER ENDS---->
+	
+			</div>
+		</section>
+	</main>
+
+	
+
+	<footer>
+		<footer-component></footer-component>
+	</footer>
+
+</div
+
+	
+
+
+
+
+
+  
+
+  
+  <!-----PAGE SCRIPT START----->
+  
+ 
+  
+  
+  
+  
+  <!----PAGE SCRIPT ENDS---->
+    
+    
+
+ 
+
+  <scrolltop-component></scrolltop-component>
+  
+  
+  
+  
+
+  <!-- JAVASCRIPTS -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="./js/wow.js"></script>
+  <!---WEB COMPONETNS-->
+  <script src="./webcomponts/headerComponents.js"></script>
+  <script src="./webcomponts/FooterComponent.js"></script>
+  <script src="./webcomponts/ScrollToTop.js"></script>
+  <script src="./webcomponts/HeroComponent.js"></script>
+  <script src="./webcomponts/PageTitle.js"></script>
+  <script src="./webcomponts/FlipCard.js"></script>
+  <script src="./webcomponts/animatedText.js"></script>
+  <script src="./webcomponts/card-sm.js"></script>
+  <script src="./webcomponts/SpeakerCard.js"></script>
+  <script src="./webcomponts/curious.js"></script>
+  <script src="js/script.js"></script>
+  <script src="./js/submenu_select.js"></script>
+  <script src="./js/jquery.readall.js"></script>
+  <script src="./js/wow.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+ <script>
+              new WOW().init();
+              </script>
+
+
+
+</body>
+
+</html>

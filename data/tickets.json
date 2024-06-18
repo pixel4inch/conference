@@ -1,0 +1,43 @@
+[
+  {
+      "type": "STARTUP",
+	  "delay": "0.1s"
+  },
+  
+  {
+      "type": "INVESTOR",
+	  "delay": "0.2s"
+  },
+  
+  {
+      "type":"ANGEL",
+	  "delay": "0.3s"
+  },
+  
+  {
+      "type":" EXPO",
+	  "delay": "0.4s"
+  },
+  
+  {
+      "type":"PREMIUM",
+	  "delay": "0.5s"
+  },
+  
+  {
+      "type":"ATTENDEE",
+	  "delay": "0.6s"
+  },
+  
+  {
+      "type":"DOMAIN EXPERT",
+	  "delay": "0.7s"
+  },
+  
+  {
+      "type":"STUDENT",
+	  "delay": "0.8s"
+  }
+  
+  
+ ]

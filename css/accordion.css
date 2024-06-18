@@ -1,0 +1,150 @@
+.accordion-image-block{
+    padding: 30px;
+    border-radius: 30px;
+    border:rgba(255,255,255,0.2) solid 1px;
+    background: url(../images/assets/26993007739_effa3cd0d2_k.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: none;
+ 
+}
+
+.accordion-image-block:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    z-index: 3;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 100%);
+}
+
+.accordin-img-content{
+    z-index: 9;
+}
+
+.accordin-img-content h2{
+    font-family: roboto;
+    font-size: 55px;
+    text-align: left;
+    line-height: normal;
+    margin: -20px 0px 2px 0px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.accordin-img-content h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--white);
+    margin-bottom: 11px;
+    margin-top: 0px;
+    text-align: left;
+    font-family: roboto;
+    margin-left: 6px;
+}
+
+.accordin-img-content p{
+    color: var(--white);
+    font-size: 16px;
+}
+
+
+
+
+.customAccordion .card{
+    background: transparent !important;
+}
+
+.customAccordion .card-header{
+    padding: 0px;
+}
+.customAccordion .card h2 button{
+    padding: 30px 0px !important;
+    transition: color 0.15s ease;
+    color: #fff;
+    font-weight:bold;
+    text-decoration: none !important;
+    font-size: 24px;
+    letter-spacing: 1px;
+    border-bottom: rgba(255,255,255,0.2) solid 1px;
+    transition:var(--translate);
+    -webkit-transition: var(--translate);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customAccordion .card h2 button:hover,
+.customAccordion .card h2 button[aria-expanded="true"]{
+    color: var(--mainBrandColor);
+    text-decoration: none !important;
+    transition:var(--translate);
+    -webkit-transition: var(--translate);
+   
+   
+}
+
+.customAccordion .card h2 button[aria-expanded="true"]{
+    border-bottom: none !important;
+}
+
+
+
+.customAccordion .card h2 button .accordion-icon{
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: #fff solid 3px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.customAccordion .card h2 button .accordion-icon span{
+    position: absolute;
+    width: 17px;
+    height: 2px;
+    background-color: #fff;
+    
+}
+
+.customAccordion .card h2 button .accordion-icon span:nth-child(2){
+    transform:rotate(90deg);
+    transition:var(--translate);
+    -webkit-transition: var(--translate);
+}
+
+
+.customAccordion .card h2 button:hover .accordion-icon span,
+.customAccordion .card h2 button[aria-expanded="true"] .accordion-icon span{
+    background-color: var(--mainBrandColor);
+    transition:var(--translate);
+    -webkit-transition: var(--translate);
+}
+.customAccordion .card h2 button:hover .accordion-icon,
+.customAccordion .card h2 button[aria-expanded="true"] .accordion-icon{
+    border: var(--mainBrandColor) solid 3px;
+    transition:var(--translate);
+    -webkit-transition: var(--translate);
+}
+
+.customAccordion .card h2 button[aria-expanded="true"] .accordion-icon span:nth-child(2){
+    transform:rotate(0deg);
+    transition:var(--translate);
+    -webkit-transition: var(--translate);
+}
+
+
+.customAccordion .card .card-body{
+    border-bottom: rgba(255,255,255,0.2) solid 1px; !important;
+}
+
